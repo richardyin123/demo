@@ -1,9 +1,8 @@
 
 
-def demo():
-    print('just a demo')
-
-
+def demo(name):
+    print(f'Hello {name}')
+    return f'Hello {name}'
 
 if __name__ == '__main__':
-    demo()
+    demo('Richard')
